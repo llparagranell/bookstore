@@ -1,0 +1,32 @@
+.what-h1{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.what-card{
+    width: 25%;
+    padding: 5vh;
+    margin: auto;
+    display: inline-block;
+    font-size: 1rem;
+}
+.what-ul{
+    display: flex;
+    font-size: 2.5rem;
+    padding: 10px 0;
+}
+.what-ul-icon{
+    color: blue;
+    font-size: 3rem;
+}
+.what-ul li{
+    padding: 0 10px 0 0;
+}
+.what-text{
+    font-size: 1.5rem;
+}
+@media screen and (max-width:770px) {
+    .what-card{
+        width: 100%;
+    }
+}

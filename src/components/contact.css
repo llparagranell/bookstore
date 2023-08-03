@@ -1,0 +1,44 @@
+.contact-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    }
+    .contact-text{
+        width: 30vw;
+        margin-left: 5vw;
+    }
+    .contact-h1{
+        font-size: 5rem;
+        font-weight: 400;
+    }
+    .contact-p{
+        font-size: 1.7rem;
+        line-height: 1.8;
+        margin: 2vh 0;
+    }
+    .icon{
+        color: white;
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+        border-radius: 100%;
+        background-color: blue;
+        cursor: pointer;
+    }
+    #contact-img{
+        width: 700px;
+    }
+    @media screen and (max-width:770px) {
+        .contact-container{
+            flex-direction: column;
+        }
+        #contact-img{
+            width: 100%;
+        }
+        .contact-text{
+            width: 100%;
+            margin-left:0;
+            padding: 5vh;
+        }
+    }

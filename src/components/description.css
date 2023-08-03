@@ -1,0 +1,47 @@
+.description-container{
+    padding: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.description-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 4rem;
+}
+.ul-li{
+    font-size: 2rem;
+    display: inline-block;
+}
+.inline{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    font-size: 1.5rem;
+}
+.price{
+    font-size: 2rem;
+    color: red;
+    margin: 20px 0 10px 0;
+}
+.cart{
+    background-color: blue;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: white;
+}
+.cart:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 7px 2px rgba(128, 128, 128, 0.708);
+}
