@@ -10,7 +10,7 @@ function Category() {
   useEffect(() => {
     axios
       .get(
-        `https://www.googleapis.com/books/v1/volumes?q=${nameData}&key=AIzaSyAfgJZk-XFK7iip7zb2ZtOxxFxhAO6IcHw`
+        `https://www.googleapis.com/books/v1/volumes?q=${nameData}&key=${process.env.REACT_APP_API_KEY}`
       )
       .then((res) => setData(res.data))
       .catch((err) => console.log(err));
