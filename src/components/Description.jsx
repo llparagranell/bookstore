@@ -21,8 +21,6 @@ function Description() {
     navigate('/');
     alert('Thanks For Shopping !!!')
   }
-
-  console.log(data);
   if (data != null)
 
     return (
